@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon API</title>
+    <link rel="stylesheet" href="pokemon-api.css">
+    <link rel="icon" href="img/icon.avif" type="image/avif">
+</head>
+<body>
+    <h1>How much do you know about pokemon?</h1>
+    <h2>Enter an id to fetch a random pokemon</h2>
+    <input type="number" placeholder="please enter a pokemon name" id="pokemonId" min="1">
+    <button id="fetchButton">fetch pokemon</button>
+    <br>
+    <div class="card" id="card">
+        <div class="imagecontainer" id="image-container">
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite" >
+        </div>
+        <p class="label">name: <span id="pokename"></span></p>
+        <p class="label">height: <span id="pokeheight"></span></p>
+        <p class="label">weight: <span id="pokeweight"></span></p>
+        <p class="label">type: <span id="poketype"></span></p>
+        <p class="label">ability: <span id="pokeability"></span></p>
+    </div>
+    <p class="fail" id="fail">Can not found the pokemon please enter another id</p>
+    <script src="pokemon-api.js"></script>
+</body>
+</html>

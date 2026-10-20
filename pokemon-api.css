@@ -1,0 +1,38 @@
+body {
+    background-image: url("img/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.label{
+    display: none;
+}
+
+.imagecontainer{
+
+    border: 2px solid gray;
+    width: 100px;
+    margin-top: 10px;
+    display: none;
+    background-color: #FFEED6;
+}
+
+.card{
+
+    border: 3px solid yellow;
+    width: 300px;
+    height: 400px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #c8b6ff;
+    display: none;
+    border-radius: 5%;
+}
+
+.fail{
+
+    display: none;
+}
